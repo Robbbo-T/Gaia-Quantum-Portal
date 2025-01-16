@@ -1,7 +1,7 @@
 Author: Amedeo Pelliccia 
 date: 16/01/2025
 
-/# Gaia-Quantum-Portal/
+# / Gaia-Quantum-Portal /
 **Methods-Based Blockchain Tokenization through Generative Tech Data Central Fabrics, Storage, Control Management, and Distribution**
 
 ### **Comprehensive Schema of the GAIA QUANTUM PORTAL Proposal**
