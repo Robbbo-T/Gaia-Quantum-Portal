@@ -483,6 +483,7 @@ flowchart TD
     classDef data_fabric fill:#ffffcc, stroke:#cccc00, stroke-width:2px;
     classDef eGAIA fill:#ffcc99, stroke:#ff9900, stroke-width:2px;
     classDef ui fill:#d9d9d9, stroke:#666666, stroke-width:2px;
+    classDef process_optimizations fill:#f2f2f2, stroke:#b3b3b3, stroke-width:2px;
 
     %% Core components
     A(Blockchain Infrastructure):::blockchain
@@ -587,9 +588,6 @@ flowchart TD
     C -- "Analyzes" --> M
     D -- "Optimizes" --> N
     E -- "Interfaces Through" --> O
-
-    %% Annotations for clarity
-    class Process_Optimizations fill:#f2f2f2, stroke:#b3b3b3, stroke-width:2px;
 ```
 
 ---
