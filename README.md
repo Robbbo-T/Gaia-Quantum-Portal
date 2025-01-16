@@ -477,13 +477,13 @@ To provide a clear and detailed visualization of the GAIA QUANTUM PORTAL ecosyst
 ```mermaid
 flowchart TD
     %% Define styles for different components
-    classDef blockchain fill:#ffcccc, stroke:#ff0000, stroke-width:2px;
-    classDef ai_ml fill:#ccffcc, stroke:#008000, stroke-width:2px;
-    classDef quantum fill:#ccccff, stroke:#0000ff, stroke-width:2px;
-    classDef data_fabric fill:#ffffcc, stroke:#cccc00, stroke-width:2px;
-    classDef eGAIA fill:#ffcc99, stroke:#ff9900, stroke-width:2px;
-    classDef ui fill:#d9d9d9, stroke:#666666, stroke-width:2px;
-    classDef process_optimizations fill:#f2f2f2, stroke:#b3b3b3, stroke-width:2px;
+    classDef blockchain fill:#ffcccc, stroke:#ff0000, stroke-width:2px, color:#000000;
+    classDef ai_ml fill:#ccffcc, stroke:#008000, stroke-width:2px, color:#000000;
+    classDef quantum fill:#ccccff, stroke:#0000ff, stroke-width:2px, color:#000000;
+    classDef data_fabric fill:#ffffcc, stroke:#cccc00, stroke-width:2px, color:#000000;
+    classDef eGAIA fill:#ffcc99, stroke:#ff9900, stroke-width:2px, color:#000000;
+    classDef ui fill:#d9d9d9, stroke:#666666, stroke-width:2px, color:#000000;
+    classDef process_optimizations fill:#f2f2f2, stroke:#b3b3b3, stroke-width:2px, color:#000000;
 
     %% Core components
     A(Blockchain Infrastructure):::blockchain
@@ -588,6 +588,7 @@ flowchart TD
     C -- "Analyzes" --> M
     D -- "Optimizes" --> N
     E -- "Interfaces Through" --> O
+```
 ```
 
 ---
