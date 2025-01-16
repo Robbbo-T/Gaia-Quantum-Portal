@@ -1328,3 +1328,44 @@ Adopting this platform will position the aerospace and defense industry at the f
 By following these recommendations, the **GAIA QUANTUM PORTAL** can become a robust, scalable, and user-friendly platform that significantly enhances the management and optimization of aerospace and defense operations through advanced AI and blockchain technologies.
 
 If you need further assistance with specific implementations, optimizations, or integrations, feel free to ask!
+
+---
+
+## **Instructions for Running ESLint, Pylint, and SonarQube Analysis**
+
+As part of the sensor data ingestion workflow, you can run ESLint, Pylint, and SonarQube analysis to ensure code quality and maintainability. Follow the instructions below to run these tools:
+
+### **Running ESLint**
+
+1. **Install npm dependencies:**
+   ```sh
+   npm install
+   ```
+
+2. **Run ESLint:**
+   ```sh
+   npx eslint .
+   ```
+
+### **Running Pylint**
+
+1. **Install Pylint:**
+   ```sh
+   pip install pylint
+   ```
+
+2. **Run Pylint on all Python files:**
+   ```sh
+   pylint **/*.py
+   ```
+
+### **Running SonarQube Analysis**
+
+1. **Ensure you have the `sonar-scanner` installed and configured.**
+
+2. **Run SonarQube analysis:**
+   ```sh
+   sonar-scanner
+   ```
+
+These steps are integrated into the `.github/workflows/sensor-data-ingestion.yml` workflow file, ensuring that the code is automatically analyzed for quality and maintainability during the CI/CD process.
