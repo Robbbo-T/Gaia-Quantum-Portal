@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm test
+npx eslint .
+pip install pylint
+pylint **/*.py
+sonar-scanner
