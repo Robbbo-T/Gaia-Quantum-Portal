@@ -1338,3 +1338,15 @@ As part of the sensor data ingestion workflow, you can run ESLint, Pylint, and S
    ```
 
 These steps are integrated into the `.github/workflows/sensor-data-ingestion.yml` workflow file, ensuring that the code is automatically analyzed for quality and maintainability during the CI/CD process.
+
+---
+
+## **Functional Requirements Summary Table**
+
+| ID  | Tipo       | Descripción                                          | Dominio                     | Estado 1      | Estado 2      |
+| :--- | :---------- | :------------------------------------------------------ | :-------------------------- | :------------- | :------------- |
+| FR6  | Funcional   | Incorporate AI modules (ChatQuantum) for real-time design optimization. | Advanced Simulation & Modeling | Pendiente     | Pendiente     |
+| FR7  | Funcional   | Simulate complex scenarios including hydrogen consumption, optimal routes, and critical failures. | Advanced Simulation & Modeling | Pendiente     | Pendiente     |
+| FR8  | Funcional   | Collect and process data from all project phases using Big Data platforms (Hadoop or Spark). | Data Management & Analytics | Pendiente     | Pendiente     |
+| FR9  | Funcional   | Create customized dashboards using visualization tools (Tableau, Power BI, or Grafana). | Data Management & Analytics | Pendiente     | Pendiente     |
+| FR10 | Funcional   | Implement real-time analytics using streaming technologies (Kafka or AWS Kinesis). | Data Management & Analytics | Pendiente     | Pendiente     |
