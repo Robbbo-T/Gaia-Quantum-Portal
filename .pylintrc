@@ -27,3 +27,6 @@ logging-modules=logging
 
 [TYPECHECK]
 generated-members=numpy.*,scipy.*
+
+[CODE QUALITY]
+disable=too-many-arguments,too-many-locals,too-many-return-statements,too-many-branches,too-many-statements,too-many-instance-attributes,too-few-public-methods

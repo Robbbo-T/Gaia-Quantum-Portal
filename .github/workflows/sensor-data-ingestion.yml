@@ -42,3 +42,21 @@ jobs:
     - name: Run SonarQube analysis
       run: |
         sonar-scanner
+
+    - name: Run unit tests
+      run: |
+        pytest tests/unit
+
+    - name: Run integration tests
+      run: |
+        pytest tests/integration
+
+    - name: Install coverage.py
+      run: |
+        pip install coverage
+
+    - name: Run tests with coverage
+      run: |
+        coverage run -m pytest
+        coverage report
+        coverage xml

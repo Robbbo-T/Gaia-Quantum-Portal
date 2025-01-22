@@ -131,3 +131,25 @@ jobs:
       - name: Run SonarQube analysis
         run: |
           sonar-scanner
+
+      # Add a step to run unit tests
+      - name: Run unit tests
+        run: |
+          npm run unit-test
+
+      # Add a step to run integration tests
+      - name: Run integration tests
+        run: |
+          npm run integration-test
+
+      # Add a step to install nyc
+      - name: Install nyc
+        run: |
+          npm install nyc --save-dev
+
+      # Add a step to run tests with nyc for code coverage
+      - name: Run tests with nyc
+        run: |
+          npx nyc npm test
+          npx nyc report --reporter=text
+          npx nyc report --reporter=lcov
