@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "npm run lint && npm run unit-test && npm run integration-test",
+    "build": "npm run clean && npm run compile && npm run bundle",
+    "launch": "npm run env-setup && node ./dist/server.js"
+  }
+}
