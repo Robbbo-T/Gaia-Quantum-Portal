@@ -1,7 +1,7 @@
 Author: Amedeo Pelliccia 
 date: 16/01/2025
 
-#```markdown
+```markdown
 # GAIA QUANTUM PORTAL (GQP) - Aerospace AI Reference Hub
 
 **Date:** [Insert Date]  
